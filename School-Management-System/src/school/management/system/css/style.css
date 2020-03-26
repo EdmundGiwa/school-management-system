@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 15, 2019, 4:16:43 AM
+    Author     : EddyfhizzyPc
+*/
+.parent{
+     -fx-background-color: #fff;
+     
+}
+/*src\school\management\system\images\stargazing-1600x900-moon-minimal-silhouette-dark-4k-8k-18286.png*/
+.backgrounds {
+    -fx-background-image: url("stargazing-1600x900-moon-minimal-silhouette-dark-4k-8k-18286.png");
+    -fx-background-size: cover;
+}
+
+.sidebar{
+    -fx-background-color:#042954;
+
+}
+.mainDash{
+    -fx-background-color: #EEF2F1;
+}
+
+.tophbar{
+    -fx-background-color: #022240;
+}
+._tophbar{
+    -fx-background-color: #ffffff;
+}
+.supportbtn{
+    background-color: #042954;
+}
+.innernav{
+    -fx-background-color: #ffffff;
+}
+.panes_btn:hover{
+    -fx-background-color: blue;
+}
+.iconActive{
+	-fx-fill: #13a8dc;
+}
+.active{
+	-fx-text-fill: #13a8dc;
+	-fx-border-color: #13A8DC;
+	-fx-background-color: #2D4D71;
+	-fx-background-radius: 0;
+	-fx-border-width: 0 0 0 4px;
+}
+.classBtnActive{
+    -fx-background-color: #fff;
+    -fx-border-color: #343756;
+/*    -fx-border-radius: 0.5;*/
+    /*-fx-background-radius: 5;*/
+    -fx-border-width: 0 0 3 0px;
+}
